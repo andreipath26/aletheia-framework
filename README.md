@@ -1,4 +1,4 @@
-```markdown
+
 # Aletheia Framework
 
 **The framework that reveals what you already know.**
@@ -38,7 +38,7 @@ Three layers, composable, user-defined:
 
 The core knows nothing about any specific domain. It ingests, indexes, retrieves, reasons, cites, and advises. Domain knowledge comes from modules. The integration contract is the Agent Client Protocol (ACP). Users compose their own stack.
 
-```
+
 
 +-------------------------------------------------------------+
 
@@ -60,9 +60,8 @@ The core knows nothing about any specific domain. It ingests, indexes, retrieves
 |  - No GPU needed  |               | - Hard guardrails |
 +-------------------+               +-------------------+
 
-```
 
----
+
 
 ## The Governance Model
 
@@ -449,4 +448,3 @@ Commercial modules and enterprise support available separately.
 ---
 
 *The framework that reveals what you already know.*
-```
