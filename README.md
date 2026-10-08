@@ -387,33 +387,6 @@ Every milestone must pass three gates before the next begins:
 
 ---
 
-## Financial Projections
-
-### Market Size (2026)
-
-- **Enterprise-Grade AI Agent Platform:** $6.5B (2025) -> $104B (2032), CAGR 43.9%
-- **AI Assistant Market:** $19.1B (2025) -> $114.1B (2035), CAGR 19.6%
-
-### Comparable Valuations
-
-- **vLLM** (open-source inference engine, near-zero revenue): **$800M valuation** (January 2026)
-- **Hark** (proactive AI agent): **$6B valuation**
-- **Ghost Core** (local AI computer): **$11M seed, a16z-backed**
-- **Underdog** (local AI assistant): **a16z, Khosla Ventures backed**
-
-### Projected Ranges
-
-| Scenario | Assumptions | Projected Valuation |
-|----------|-------------|---------------------|
-| **Open-source, no revenue** | Strong GitHub traction, differentiated by IPP + ACP | **$15M-$40M** (acquihire/strategic) |
-| **Seed round, $750K ARR** | Professional pilots, 3-5 enterprise WHAXON deployments | **$25M-$50M** |
-| **Series A, $4M ARR** | 15-25 enterprise customers, module marketplace live, KILN at Ollama parity | **$60M-$150M** |
-| **Series B, $20M ARR** | 100+ enterprise customers, IPP adopted as standard | **$200M-$500M** |
-
-**Upside case:** If IPP (IETF draft) becomes the standard for AI governance, and ACP becomes the standard for module integration, the platform becomes infrastructure. Infrastructure gets acquired for **$500M-$1B**.
-
----
-
 ## Status
 
 **Pre-alpha.** Architecture and roadmap complete. Implementation begins after KILN and WHAXON are shipped.
