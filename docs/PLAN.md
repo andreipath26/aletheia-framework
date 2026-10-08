@@ -7,6 +7,36 @@
 
 ---
 
+## 0. Product Claim
+
+Aletheia gives the user a governed, modular, local-first personal AI advisor that indexes their entire digital life, answers with cryptographic provenance, and never executes a professional action without explicit human authorization enforced by signed intent tokens — at the cost of running on the user's own hardware, with cloud use only when the user opts in per query.
+
+---
+
+## 0.1 Standard Formats (R119)
+
+Aletheia supports the following formats natively. Optimization or alternative formats are optional, not required.
+
+**Documents:** PDF, DOCX, TXT, Markdown, HTML, CSV, JSON, YAML.
+
+**Email:** MBOX, EML, IMAP (live sync).
+
+**Images:** PNG, JPG, JPEG, WEBP, TIFF, BMP (with OCR via local vision models).
+
+**Audio:** WAV, MP3, FLAC, OGG, M4A (transcription via local ASR).
+
+**Code:** any plain-text source format, read as UTF-8 text.
+
+**Knowledge artifacts:** Markdown (compiled wiki output), SQLite (local store), JSON Lines (audit log, tamper-evident chain).
+
+**Module interface:** Agent Client Protocol (ACP), JSON-RPC over stdio and HTTP.
+
+**Governance:** Intent Provenance Protocol (IPP), JSON with Ed25519 signatures.
+
+Any new format is added by explicit decision, not by drift. The list above is the boundary.
+
+---
+
 ## 1. What This Project Is
 
 Aletheia is the integration layer for a three-project stack: KILN (runtime), WHAXON (domain expert), and Aletheia (memory and advisor). The core is domain-agnostic. Domain expertise plugs in via the Agent Client Protocol (ACP). Governance is enforced structurally via the Intent Provenance Protocol (IPP).
